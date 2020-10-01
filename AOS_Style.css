@@ -1,0 +1,75 @@
+html, body, header, nav, main
+{
+	padding: 0px;
+	margin: 0px;
+	top:0px;	
+}
+header
+{	
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+header div
+{
+	/*max-height: 700px;*/
+	padding: 0px;
+	margin: 0px;
+	background-image: url("Image/Meduse_1.jpg");
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+}
+
+header img
+{
+	
+}
+
+nav
+{
+	background-color: black;
+	z-index: 1;
+}
+nav li a
+{
+	
+}
+
+nav ul
+{
+	list-style-type: none;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+nav li
+{
+	background-color: black;
+	height: 50px;
+	width: 15%;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 200%;
+	color:whitesmoke;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+}
+nav li:hover
+{
+	color: black;
+	background-color: cornsilk;
+}
+.menuPages
+{
+}
+main
+{
+	background-color: white;
+	z-index: 0;
+}
